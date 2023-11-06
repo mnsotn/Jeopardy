@@ -1,0 +1,21 @@
+/* Copyright 2019-20 Chris Bovitz, mnsotn@yahoo.com */
+
+td { color: #000000; }
+input[type=text] { border-bottom: 1px solid #ffffff; }
+textarea { border: 1px solid #ffffff; }
+input[type=text] { border: none; 
+                   border-bottom: 1px solid #000000; }
+.clueCorrect { border: 5px solid #00ff00;
+               padding: 1px; }
+.clueIncorrect { border:  5px solid #800000;
+                 padding: 1px; }
+.clueUnanswered { border: 2px solid #000080;
+                  color: #808080;
+                  padding: 4px; }
+.clueUnvisited { color: #808080; }
+.scoreCorrect { color: #00ff00; }
+.scoreIncorrect { color: #800000; }
+.scoreTotal { color: #c0c0c0; }
+.scoreUnanswered { color: #808000; }
+.scoreUnvisited { color: #0e0f83; }
+th.tableTitle { color: #000000; }

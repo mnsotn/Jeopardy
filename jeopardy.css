@@ -1,0 +1,92 @@
+/* Copyright 2019-22 Chris Bovitz, mnsotn@yahoo.com */
+
+body { background-color: #00003A; 
+       color: #ffffff; 
+       font-family: "Calibri", "Arial"; }
+.unitsLabel { color: #ffff00; }
+p.airDate { color: #ffffff; }
+div.all { width: 100%;
+          text-align: center;
+          display: inline-block; }
+div.game { display: inline-block; }
+table { border: 1px solid #808080;
+        cursor: pointer; 
+        border-spacing: 2px; 
+        color: #ffffff; 
+       -webkit-tap-highlight-color: transparent;
+       -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none; }
+.final { float: right; }
+th { border: 1px solid #808080;
+     padding: 5px;
+     text-align: center;
+     background-color: #0e0f83;
+     font-size: 120%; }
+td { border: 1px solid #808080;
+     text-align: center;
+     padding: 5px;
+     background-color: #0e0f83; 
+     color: #ffff00; }
+th.tableTitle { color: #00ffff; }
+td.score { font-weight: bold; 
+           width: 25%; }
+td.finalCategory { color: #ffffff; }
+.catSize { height: 4em;
+           width: 6.5em; 
+		   vertical-align: middle;}
+.catSizeBig { height: 4em;
+              width: 5em; }
+.catSizeScore { height: 2em; 
+                width: 5em; }
+.contestantSize { height: 1.5em;
+                  width: 5em; }
+.manualBet { font-weight: bold; }
+.trueDouble { font-style: italic; }
+textarea { text-align: justify;
+           display: inline-block;
+           vertical-align: middle;
+           text-align-last: center; 
+           resize: none;
+           overflow: hidden;
+           font-family: inherit;
+           color: #ffffff; 
+           background-color: inherit; 
+           border: 1px solid #808080; 
+           height: 3em;
+           width: 6em; }
+.big { font-size: 120%; }
+input[type=text] { border: none; 
+                   border-bottom: 1px solid #ffffff; 
+                   background-color: inherit;
+                   color: #ffffff;
+                   font-family: inherit; 
+                   font-weight: bold; 
+                   width: 15em;}
+p.credits { color: #0e0f83; 
+            font-size: 50%; }
+.clueCorrect { color: #000000; 
+               border: 1px solid #808080;
+               background: repeating-radial-gradient(circle, #00b000, #00b000 5px, #00e000 5px, #00e000 10px); }
+.clueIncorrect { color: #000000; 
+                 border: 1px solid #808080;
+                 background: repeating-linear-gradient(45deg, #ff0000, #ff0000 5px, #e00000 5px, #e00000 10px); }
+.clueUnanswered { color: #000000; 
+                  border: 1px solid #808080;
+                  background: repeating-linear-gradient(0deg, transparent 3px, transparent 5px, #808080 5px, #808080 10px),
+                              repeating-linear-gradient(90deg, #606060 3px, #606060 5px, #808080 5px, #808080 10px); }
+.clueUnvisited { color: #ffff00;
+                 background-color: #0e0f83;
+                 border: 1px solid #808080; }
+.scoreCorrect { color: #00c000; }
+.scoreIncorrect { color: #ff0000; }
+.scoreTotal { color: #c0c0c0; }
+.scoreUnanswered { color: #808080; }
+.scoreUnvisited { color: #0e0f83; }
+.scoreType { font-size: 75%; 
+             font-weight: normal; }
+.coryat { color: #808080;
+          font-weight: normal; }

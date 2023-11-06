@@ -1,0 +1,43 @@
+<!-- Copyright 2019-22 Chris Bovitz, mnsotn@yahoo.com -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="utf-8" http-equiv="encoding"/>
+    <link rel="stylesheet" type="text/css" href="jeopardy.css"/>
+    <link rel="stylesheet" type="text/css" href="jeopardy_print.css" media="print"/>
+    <script type="text/javascript" src="jeopardy.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('beforeunload', (event) => {
+            event.preventDefault();
+            event.returnValue = ''; });
+		gameName = "Celebrity Jeopardy!";
+    </script>
+</head>
+<body>
+
+<script type="text/javascript">SetStartingValue();</script>
+
+<div class="all">
+    <div class="game">
+        <p class="airDate"><span class="big">Show air date:</span> <input type="text" class="big"/></p>
+
+        <script type="text/javascript">InitRound("single");</script>
+
+        <script type="text/javascript">InitRound("double");</script>
+
+        <script type="text/javascript">InitRound("triple");</script>
+
+		<!-- Add more rounds here -->
+
+		<script type="text/javascript">InitRound("scores");</script>
+		
+        <script type="text/javascript">InitRound("final");</script>
+    </div>
+</div>
+
+<p class="credits">&copy; 2019 Chris Bovitz, all rights, if any, reserved. 
+Jeopardy! is &copy; Jeopardy Productions, a subsidiary of Sony Pictures Entertainment.  
+<script>document.write("Version "+version);</script></p>
+</body>
