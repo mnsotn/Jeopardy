@@ -1,6 +1,8 @@
+Jeopardy! is © Jeopardy Productions, a subsidiary of Sony Pictures Entertainment. 
+
 Here's how you use this.
 
-When you bring up the web page, it asks you for the upper-left value in the (single) Jeopardy! board.  All the other values, including the "You can bet up to this for a Daily Double if you have less than the maximum amount for that round" are based off this starting value.  In the current version of "Jeopardy!", that value is (the default) $200.  For "Celebrity Jeopardy!", it's $100.
+When you bring up the web page, it asks you for the upper-left value in the (single) Jeopardy! board.  All the other values, including the "You can bet up to this for a Daily Double if you have less than the maximum clue amount for that round" are based off this starting value.  In the current version of "Jeopardy!", that value is (the default) $200.  For "Celebrity Jeopardy!", it's $100.
 
 You can enter some identifying information about the show at the top if you'd like.
 
